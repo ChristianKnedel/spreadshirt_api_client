@@ -7,7 +7,7 @@ class Spreadshirt:
             "Authorization": 'SprdAuth apiKey="' + api_key + '"', 
             "User-Agent": 'ShopApiExampleIntegration-1.0'
         }
-        self.url = "https://api.spreadshirt.net/api/v1/" +  'shops/' +shop_id +'/'
+        self.url = 'https://api.spreadshirt.net/api/v1/shops/' + shop_id + '/'
         self.mediaType = 'json'
 
     def get_sellables(self, page):
